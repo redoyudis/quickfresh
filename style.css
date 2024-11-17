@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Agradir, sans-serif;
+  font-size: 16px;
+  background: #27c204;
+}
+
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 60px;
+  font-size: 1rem;
+  font-weight: 400;
+  box-shadow: 0rem 0.125rem 0.25rem 0rem rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  overflow-x: auto;
+}
+
+nav li {
+  display: flex;
+  height: 60px;
+}
+
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(36, 36, 36);
+  font-family: source-sans-pro, "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.nav-container:hover {
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  min-width: 200px;
+  border-radius: 0.5rem;
+  background: white;
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}
+
+.log-in {
+  display: flex;
+  align-items: center;
+}
+
+.log-in a:hover {
+  background: rgba(82, 142, 45, 0.2);
+}
+
+.log-in-button {
+  padding: 0.6rem 2rem;
+  border: 1px solid rgb(82, 142, 45);
+  border-radius: 0.2rem;
+  color: rgb(82, 142, 45);
+  font-weight: 700;
+}
